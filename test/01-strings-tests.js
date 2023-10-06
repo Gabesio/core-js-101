@@ -17,7 +17,7 @@ describe('01-strings-tasks', () => {
   it.optional('getStringFromTemplate should create a string from template using given parameters', () => {
     assert.equal(tasks.getStringFromTemplate('John', 'Doe'), 'Hello, John Doe!');
     assert.equal(tasks.getStringFromTemplate('Chuck', 'Norris'), 'Hello, Chuck Norris!');
-  });
+  })
 
   it.optional('extractNameFromTemplate should parse the name from given string', () => {
     assert.equal(tasks.extractNameFromTemplate('Hello, John Doe!'), 'John Doe');
